@@ -3,7 +3,6 @@
 title:            Devops for the Rest of Us
 locale:           en_US
 url:              http://devopsfortherestof.us
-baseurl:          /devopsfortherestofus
 
 
 # Jekyll configuration
