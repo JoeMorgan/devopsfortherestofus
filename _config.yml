@@ -1,0 +1,61 @@
+# Site wide configuration
+
+title:            Devops for the Rest of Us
+locale:           en_US
+# url:              http://devopsfortherestof.us
+url:              http://localhost:4000
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Joe Morgan
+  avatar: Joe.jpg
+  bio: "Describe your self."
+  email: jmorgan@sapient.com
+  disqus-shortname: devopsfortherestofus
+  instagram: stachedaway
+  facebook: josepht.morgan
+  twitter: StachedAway
+  github: JoeMorgan
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  xing: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
