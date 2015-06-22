@@ -27,13 +27,15 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
+  name: Joe Morgan
+  avatar: Joe.jpg
   bio: "Describe your self."
-  email:
+  email: jmorgan@sapient.com
   disqus-shortname: devopsfortherestofus
-  twitter: #username
-  facebook: #username
+  instagram: stachedaway
+  facebook: josepht.morgan
+  twitter: StachedAway
+  github: JoeMorgan
   google:
     plus: #username
     analytics:
@@ -41,11 +43,9 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   xing: #username
-  instagram: #username
   lastfm: #username
   tumblr: #username
   pinterest: #username

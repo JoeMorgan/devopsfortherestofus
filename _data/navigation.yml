@@ -1,10 +1,10 @@
 # Site navigation links
 
-- title: About Joe
-  url: /about-joe/
+- title: What Is Devops?
+  url: /what-is-devops/
 
-- title: Sample Posts
-  url: /posts/
+- title: About
+  url: /about/
 
 # - title: Made Mistakes
 #   url: http://mademistakes.com
