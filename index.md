@@ -1,6 +1,7 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
+author: joe_morgan
+excerpt: ""
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: sample-image-1.jpg
