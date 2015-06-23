@@ -356,9 +356,6 @@ $button-size: 1.5rem;
   margin-bottom: 5px;
   @include font-rem(14);
   color: $black;
-  &:visited {
-    color: $black;
-  }
   &:hover {
     @include scale(1.1);
   }
@@ -373,6 +370,9 @@ $button-size: 1.5rem;
 /* Author sidebar */
 .article-author-side {
 	display: none;
+	p{
+		margin-bottom:0.8em;
+	}
 	.bio-photo {
 		max-width: 110px;
 		@include rounded(150px);
@@ -391,9 +391,6 @@ $button-size: 1.5rem;
 		h3 {
 			margin-top: 10px;
 			margin-bottom: 10px;
-		}
-		p {
-			margin-bottom: 20px;
 		}
 		.author-social {
 			margin-bottom: 5px;
@@ -629,7 +626,6 @@ $button-size: 1.5rem;
 	padding-bottom: 3em;
 	a,
 	a:active,
-	a:visited,
 	p,
 	h4,
 	h5,
