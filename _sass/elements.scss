@@ -82,9 +82,12 @@ svg:not(:root) {
   border-color: $primary;
   text-decoration: none !important;
   @include rounded(3px);
+<<<<<<< HEAD
   &:visited {
     color: $white;
   }
+=======
+>>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
   &:hover {
     background-color: $white;
     color: $primary;
@@ -97,9 +100,12 @@ svg:not(:root) {
   background-color: $success;
   color: $white;
   border-color: $success;
+<<<<<<< HEAD
   &:visited {
     color: $white;
   }
+=======
+>>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
   &:hover {
     background-color: $white;
     color: $success;
@@ -112,9 +118,12 @@ svg:not(:root) {
   background-color: $warning;
   color: $white;
   border-color: $warning;
+<<<<<<< HEAD
   &:visited {
     color: $white;
   }
+=======
+>>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
   &:hover {
     background-color: $white;
     color: $warning;
@@ -127,9 +136,12 @@ svg:not(:root) {
   background-color: $danger;
   color: $white;
   border-color: $danger;
+<<<<<<< HEAD
   &:visited {
     color: $white;
   }
+=======
+>>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
   &:hover {
     background-color: $white;
     color: $danger;
@@ -142,9 +154,12 @@ svg:not(:root) {
   background-color: $info;
   color: $white;
   border-color: $info;
+<<<<<<< HEAD
   &:visited {
     color: $white;
   }
+=======
+>>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
   &:hover {
     background-color: $white;
     color: $info;
