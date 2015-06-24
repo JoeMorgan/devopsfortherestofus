@@ -37,9 +37,6 @@ h6 {
 a {
 	text-decoration: none;
 	color: $link-color;
-	&:visited {
-		color: $linkcolorvisited;
-	}
 	&:hover {
 		color: $linkcolorhover;
 	}
