@@ -356,6 +356,12 @@ $button-size: 1.5rem;
   margin-bottom: 5px;
   @include font-rem(14);
   color: $black;
+<<<<<<< HEAD
+  &:visited {
+    color: $black;
+  }
+=======
+>>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
   &:hover {
     @include scale(1.1);
   }
@@ -370,12 +376,15 @@ $button-size: 1.5rem;
 /* Author sidebar */
 .article-author-side {
 	display: none;
+<<<<<<< HEAD
+=======
 	p{
 		margin-bottom:0.8em;
 		&:last-of-type{
 			margin-bottom:20px;
 		}
 	}
+>>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
 	.bio-photo {
 		max-width: 110px;
 		@include rounded(150px);
@@ -395,6 +404,12 @@ $button-size: 1.5rem;
 			margin-top: 10px;
 			margin-bottom: 10px;
 		}
+<<<<<<< HEAD
+		p {
+			margin-bottom: 20px;
+		}
+=======
+>>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
 		.author-social {
 			margin-bottom: 5px;
 		}
@@ -629,6 +644,10 @@ $button-size: 1.5rem;
 	padding-bottom: 3em;
 	a,
 	a:active,
+<<<<<<< HEAD
+	a:visited,
+=======
+>>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
 	p,
 	h4,
 	h5,
