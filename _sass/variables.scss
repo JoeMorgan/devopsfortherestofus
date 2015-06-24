@@ -2,31 +2,23 @@
    Sass variables
    ========================================================================== */
 
-<<<<<<< HEAD
-/* 
+/*
 =======
 /*
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
    Typography
    ========================================================================== */
 
 $doc-font-size: 16;
 $doc-line-height: 26;
-<<<<<<< HEAD
-$paragraph-indent: true !default;
-=======
 $paragraph-indent: false !default;
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
 $base-font: 'PT Serif', serif;
 $heading-font: 'PT Sans Narrow', sans-serif;
 $code-font: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 $alt-font: $base-font;
 
-<<<<<<< HEAD
-/* 
+/*
 =======
 /*
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
    Colors
    ========================================================================== */
 
@@ -35,13 +27,10 @@ $body-color     : $bodycolor;
 $textcolor      : #333332;
 $text-color     : $textcolor;
 $border-color   : $text-color;
-<<<<<<< HEAD
-$basecolor 		  : #343434;	  
-$compcolor 		  : spin($basecolor, 180); 
-=======
 $basecolor 		  : #343434;
 $compcolor 		  : spin($basecolor, 180);
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
+$basecolor 		  : #343434;
+$compcolor 		  : spin($basecolor, 180);
 $bordercolor    : $basecolor;
 $white          : #fff;
 $black          : #111;
@@ -69,18 +58,16 @@ $vimeo-color        : #1ab7ea;
 $youtube-color      : #ff3333;
 
 /* links */
-<<<<<<< HEAD
 $linkcolor 		    : #343434;
 $link-color       : $linkcolor;
 $linkcolorhover 	: darken($linkcolor, 10);
 $linkcolorvisited : lighten($linkcolorhover, 20);
 $linkcolorfocus 	: darken($linkcolorvisited, 10);
 
-/* 
+/*
    Breakpoints
    ========================================================================== */
-   
-=======
+
 $linkcolor 		    : #444;
 $link-color       : $linkcolor;
 $linkcolorhover 	: #65b6dc;
@@ -91,7 +78,6 @@ $linkcolorfocus 	: darken($linkcolor, 10);
    Breakpoints
    ========================================================================== */
 
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
 $micro            : "only screen and (min-width: 30em)";
 $small            : "only screen and (min-width: 37.5em)";
 $medium           : "only screen and (min-width: 48em)";

@@ -2,11 +2,9 @@
    Typography
    ========================================================================== */
 
-<<<<<<< HEAD
-/* 
+/*
 =======
 /*
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
    Headings
    ========================================================================== */
 
@@ -32,31 +30,30 @@ h6 {
 	@include font-size(14);
 }
 
-<<<<<<< HEAD
-/* 
+/*
    Links
    ========================================================================== */
 
-a { 
+a {
 	text-decoration: none;
-	color: $link-color; 
-	&:visited { 
-		color: $linkcolorvisited; 
+	color: $link-color;
+	&:visited {
+		color: $linkcolorvisited;
 	}
-	&:hover { 
-		color: $linkcolorhover; 
+	&:hover {
+		color: $linkcolorhover;
 	}
-	&:focus { 
-		outline: thin dotted; 
+	&:focus {
+		outline: thin dotted;
 		color: $linkcolorfocus;
 	}
-	&:hover, 
-	&:active { 
-		outline: 0; 
+	&:hover,
+	&:active {
+		outline: 0;
 	}
 }
 
-/* 
+/*
 =======
 /*
    Links
@@ -83,7 +80,6 @@ span a {
 	}
 }
 /*
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
    Figure captions
    ========================================================================== */
 
@@ -94,11 +90,9 @@ figcaption {
 	color: lighten($text-color, 10);
 }
 
-<<<<<<< HEAD
-/* 
+/*
 =======
 /*
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
    Feature image captions
    ========================================================================== */
 
@@ -125,11 +119,9 @@ figcaption {
 	}
 }
 
-<<<<<<< HEAD
-/* 
+/*
 =======
 /*
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
    Notices
    ========================================================================== */
 
@@ -143,11 +135,9 @@ figcaption {
 	@include rounded(3px);
 }
 
-<<<<<<< HEAD
-/* 
+/*
 =======
 /*
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
    Blockquotes
    ========================================================================== */
 
@@ -159,11 +149,9 @@ blockquote {
 	font-style: italic;
 }
 
-<<<<<<< HEAD
-/* 
+/*
 =======
 /*
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
    Footnotes
    ========================================================================== */
 
@@ -174,11 +162,9 @@ blockquote {
 	}
 }
 
-<<<<<<< HEAD
-/* 
+/*
 =======
 /*
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
    Paragraphs
    ========================================================================== */
 
@@ -193,11 +179,9 @@ p {
 	}
 }
 
-<<<<<<< HEAD
-/* 
+/*
 =======
 /*
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
    Code snippets
    ========================================================================== */
 
@@ -205,11 +189,7 @@ tt, code, kbd, samp, pre {
 	font-family: $code-font;
 }
 p,
-<<<<<<< HEAD
-li { 
-=======
 li {
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
 	code {
 		@include font-rem(12);
 		line-height: 1.5;
