@@ -370,6 +370,13 @@ $button-size: 1.5rem;
 /* Author sidebar */
 .article-author-side {
 	display: none;
+	p{
+		margin-bottom:.8em;
+		&:last-of-type{
+			margin-bottom:20px;
+		}
+	}
+
 	.bio-photo {
 		max-width: 110px;
 		@include rounded(150px);

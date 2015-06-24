@@ -40,28 +40,6 @@ a {
 	&:hover {
 		color: $linkcolorhover;
 	}
-	&:focus {
-		outline: thin dotted;
-		color: $linkcolorfocus;
-	}
-	&:hover,
-	&:active {
-		outline: 0;
-	}
-}
-
-/*
-=======
-/*
-   Links
-   ========================================================================== */
-
-a {
-	text-decoration: none;
-	color: $link-color;
-	&:hover {
-		color: $linkcolorhover;
-	}
 	&:active {
 		outline: 0;
 	}
