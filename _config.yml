@@ -2,12 +2,7 @@
 
 title:            Devops for the Rest of Us
 locale:           en_US
-<<<<<<< HEAD
-# url:              http://devopsfortherestof.us
-url:              http://localhost:4000
-=======
 url:              http://devopsfortherestof.us
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
 
 
 # Jekyll configuration
