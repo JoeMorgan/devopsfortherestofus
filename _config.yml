@@ -56,9 +56,5 @@ owner:
   weibo: #username
   flickr: #username
 
-<<<<<<< HEAD
-include: [".htaccess"]
-=======
 include: [".htaccess", "robots.txt"]
->>>>>>> b0f1d61a312d4c7ba53fcc88f6648f890c71c694
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
