@@ -5,9 +5,9 @@ author: joe_morgan
 tags: [post submission, how-to]
 comments: false
 image:
-  feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: night-lights-3.jpg
+  credit: 4freephotos.com
+  creditlink: http://www.4freephotos.com/images/batch/Blurred-lights772.jpg
 ---
 
 ## Outline ##

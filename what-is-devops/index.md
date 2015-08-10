@@ -5,12 +5,10 @@ author: joe_morgan
 tags: [devops, bizdevops, devops-lite]
 comments: false
 image:
-  feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: night-lights-1.jpg
+  credit: static.pexels.com
+  creditlink: https://static.pexels.com/photos/370/lights-night-dark-abstract.jpeg
 ---
-
-## Outline ##
 
 This page has much the same point as my WNIN presentation:
 

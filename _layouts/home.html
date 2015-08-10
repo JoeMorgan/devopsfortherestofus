@@ -11,36 +11,52 @@
 
 {% include _browser-upgrade.html %}
 
-{% include _navigation.html %}
-
-{% if page.image.feature %}
-  <div class="image-wrap">
-  <img src=
-    {% if page.image.feature contains 'http' %}
-      "{{ page.image.feature }}"
-    {% else %}
-      "{{ site.url }}/images/{{ page.image.feature }}"
+<section>
+  {% include _navigation.html %}
+  {% if page.image.feature %}
+    <div class="image-wrap">
+    <img src=
+      {% if page.image.feature contains 'http' %}
+        "{{ page.image.feature }}"
+      {% else %}
+        "{{ site.url }}/images/{{ page.image.feature }}"
+      {% endif %}
+    alt="{{ page.title }} feature image">
+    {% if page.image.credit %}
+      <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
     {% endif %}
-  alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+    </div><!-- /.image-wrap -->
   {% endif %}
-  </div><!-- /.image-wrap -->
-{% endif %}
+</section>
 
-<div id="main" role="main">
+
+<main id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
   <div id="index">
-    <!-- <!-- TODO: Uncomment when ready to launch
-    <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3> -->
-    <h1><a href="{{ site.url}}/posts/">Coming Soon</a></h1>
-    <p>
-      This blog is scheduled to launch in October. Come back then to join the conversation, or follow me on <a href="http://twitter.com/StachedAway">Twitter</a>.
-    </p>
-    <!-- TODO: Uncomment when ready to launch
-    {% for post in site.posts limit:5 %}
+
+  {% for post in site.posts limit:1 %}
+    <article>
+      {% if post.link %}
+        <h1 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+          <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h1>
+      {% else %}
+        <h1><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+        {{ post.content | truncate: 1000}}
+        {% if post.content.size > 1000 %}
+        <p class="read-more-link">
+          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">Read more</a>
+        </p>
+        {% endif %}
+      {% endif %}
+    </article>
+  {% endfor %}
+
+  {% if site.posts.size > 1 %}
+  <section class="recent-posts">
+    <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
+    {% for post in site.posts limit:5  offset:1 %}
     <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
@@ -51,9 +67,10 @@
       {% endif %}
     </article>
     {% endfor %}
-    -->
+  </section>
+  {% endif %}
   </div><!-- /#index -->
-</div><!-- /#main -->
+</main><!-- /#main -->
 
 <div class="footer-wrap">
   <footer>

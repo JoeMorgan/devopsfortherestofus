@@ -2,12 +2,10 @@
 
 joe_morgan:
   name: Joe Morgan
-  # web: http://thewhip.com
   email: jmorgan@sapient.com
   bio:
     [
-      "I lead the experience technology group at <a href='http://sapientnitro.com' target='_blank' title='SapientNitro'>SapientNitro</a> in Boston.",
-      "I'm interesting in learning about devops to improve the experiences that we create for the web."
+      "A front-end web evangelist and, somewhat recently, a devops enthusiast, I'm a slacker at heart, always looking for ways to work smarter."
     ]
   avatar: Joe.jpg
   instagram: stachedaway

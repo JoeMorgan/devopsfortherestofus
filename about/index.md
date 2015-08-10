@@ -5,9 +5,9 @@ author: joe_morgan
 tags: [about, bio, joe, Sapient, CMTOu]
 comments: false
 image:
-  feature: sample-image-3.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: night-lights-0.jpg
+  credit: desktopwallpapers4.me
+  creditlink: http://www.desktopwallpapers4.me/abstract/blurry-hexagon-lights-10427/
 ---
 
 ## Outline ##
