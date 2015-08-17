@@ -38,7 +38,7 @@ Since those early days, there has been an explosion of tools coming out of the d
 
 And along with the popularity of these tools comes an increasing number of success stories from the companies that have embraced them (and, more importantly, the thinking behind them). Esty <a href="http://www.slideshare.net/beamrider9/continuous-deployment-at-etsy-a-tale-of-two-approaches" target="_blank" title="Continuous Deployment at Esty: A Tale of Two Approaches (on slideshare)">spoke at SWSX in 2013</a> about doing 25+ deploys per day (a number that has since doubled to more than 50 per day at QCon, London), while Amazon reports performing a production deployment every *<a href="https://www.youtube.com/watch?v=dxk8b9rSKOo&feature=youtu.be&t=10m8s" target="_blank" title="Velocity 2011: Jon Jenkins, &quot;Velocity Culture&quot;">11.6 seconds</a>*.
 
-But tools are obviously a means to an end. If the end in question is a deployment metric, then that should tell us something. What is a release but the delivery of value from the business to the consumer?
+So the tools are obviously a means to an end. If the end in question is a deployment metric, then that should tell us something. What is a production release but the delivery of value from the business to the consumer?
 
 
 
