@@ -5,13 +5,23 @@
   font-family: 'PT Sans Narrow';
   font-style: normal;
   font-weight: 400;
-  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url(http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v5/UyYrYy3ltEffJV9QueSi4RdbPw3QSf9R-kE0EsQUn2A.woff) format('woff');
+  src: url('/assets/fonts/pt_sans-narrow-web-regular-webfont.eot');
+  src: url('/assets/fonts/pt_sans-narrow-web-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/pt_sans-narrow-web-regular-webfont.woff2') format('woff2'),
+       url('/assets/fonts/pt_sans-narrow-web-regular-webfont.woff') format('woff'),
+       url('/assets/fonts/pt_sans-narrow-web-regular-webfont.ttf') format('truetype'),
+       url('/assets/fonts/pt_sans-narrow-web-regular-webfont.svg#pt_sans_narrowregular') format('svg');
 }
 @font-face {
   font-family: 'PT Sans Narrow';
   font-style: normal;
   font-weight: 700;
-  src: local('PT Sans Narrow Bold'), local('PTSans-NarrowBold'), url(http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v5/Q_pTky3Sc3ubRibGToTAYiylde52zikAzebNtJS89aM.woff) format('woff');
+  src: url('/assets/fonts/pt_sans-narrow-web-bold-webfont.eot');
+  src: url('/assets/fonts/pt_sans-narrow-web-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/pt_sans-narrow-web-bold-webfont.woff2') format('woff2'),
+       url('/assets/fonts/pt_sans-narrow-web-bold-webfont.woff') format('woff'),
+       url('/assets/fonts/pt_sans-narrow-web-bold-webfont.ttf') format('truetype'),
+       url('/assets/fonts/pt_sans-narrow-web-bold-webfont.svg#pt_sans_narrowbold') format('svg');
 }
 @font-face {
   font-family: 'PT Serif';

@@ -2,7 +2,7 @@
 layout: page
 title: What Is Devops?
 author: joe_morgan
-tags: [devops, bizdevops, devops-lite]
+tags: [devops, bizdevops, history of devops, automation, Lean IT, theory of constraints, The Three Ways]
 comments: false
 image:
   feature: night-lights-1.jpg
@@ -40,7 +40,7 @@ Since those early days, there has been an explosion of tools coming out of the d
 
 And along with the popularity of these tools comes an increasing number of success stories from the companies that have embraced them (and, more importantly, the thinking behind them). Esty <a href="http://www.slideshare.net/beamrider9/continuous-deployment-at-etsy-a-tale-of-two-approaches" target="_blank" title="Continuous Deployment at Esty: A Tale of Two Approaches (on slideshare)">spoke at SWSX in 2013</a> about doing 25+ deploys per day (a number that has since doubled to more than 50 per day at QCon, London), while Amazon reports performing a production deployment every *<a href="https://www.youtube.com/watch?v=dxk8b9rSKOo&amp;feature=youtu.be&amp;t=10m8s" target="_blank" title="Velocity 2011: Jon Jenkins, &quot;Velocity Culture&quot;">11.6 seconds</a>*.
 
-##A More Interesting Definition##
+##A More Interesting Angle##
 
 It may be obvious, but tools are a means to an end. If we surmise from the statistics above that the end in question is a deployment metric, then that should tell us something. What is a production release but the delivery of value from the business to the consumer? This line of questioning leads us to what I consider to be one of the more interesting views of devops:
 
