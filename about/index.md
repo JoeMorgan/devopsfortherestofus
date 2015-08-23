@@ -5,7 +5,7 @@ author: joe_morgan
 tags: [about, bio, joe, Sapient, CMTOu]
 comments: false
 image:
-  feature: shapes-3.png
+  feature: shapes-2.png
 ---
 
 At a glance, Devops for the Rest of Us may seem odd. A devops blog that intentionally shifts the focus <i>away</i> from development and IT operations? What gives?

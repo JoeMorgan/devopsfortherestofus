@@ -30,7 +30,9 @@ h5 {
 h6 {
 	@include font-size(14);
 }
-
+h3{
+	margin-top:1rem;
+}
 /*
    Links
    ========================================================================== */
@@ -160,6 +162,12 @@ p {
 			margin-top: -($indent-var);
 		}
 	}
+}
+
+.callout{
+	font-size:1.4rem;
+	margin-bottom:3rem;
+	font-style:italic;
 }
 
 /*

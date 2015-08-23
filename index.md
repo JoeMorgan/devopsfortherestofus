@@ -2,7 +2,7 @@
 layout: home
 author: joe_morgan
 excerpt: ""
-tags: [Jekyll, theme, responsive, blog, template]
+tags: [devops, ways of working, introduction, recent posts]
 image:
   feature: shapes-1.png
 ---

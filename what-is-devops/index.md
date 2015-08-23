@@ -3,14 +3,14 @@ layout: page
 title: What Is Devops?
 author: joe_morgan
 tags: [devops, bizdevops, history of devops, automation, Lean IT, theory of constraints, The Three Ways]
-comments: false
+comments: true
 image:
-  feature: shapes-2.png
+  feature: shapes-3.png
 ---
 
 People have been defining and redefining devops for years. The intent here isn't to propose yet another definition, but to try to describe the thinking behind the modern devops movement and to provide a gentle introduction for those of you who are new to the topic. For you seasoned devops professionals, please jump in and correct me if I go astray.
 
-It may be obvious from the word devops&mdash;technically called a <a href="https://en.wikipedia.org/wiki/Portmanteau" target="_blank" title="Wikipedia">portmanteau</a>, but I prefer "frankenword"&mdash;that this all started as a way to combine development and operations. To bridge the gap between coders and infra people. But why? What gap are we talking about?
+It may be obvious from the word devops&mdash;technically called a <a href="https://en.wikipedia.org/wiki/Portmanteau" target="_blank" title="Wikipedia">portmanteau</a>, but I prefer "frankenword"&mdash;that this all started as a way to combine development and operations. To bridge the gap between coders, who build products, services, and experiences, and infrastructure teams, who provision hardware and configure environments to bring that code out into the world. But why? What gap are we talking about?
 
 
 ##Build and Release##

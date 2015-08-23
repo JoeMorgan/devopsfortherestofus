@@ -1,10 +1,10 @@
 # Site navigation links
 
-- title: What Is Devops?
-  url: /what-is-devops/
-
 - title: About
   url: /about/
+
+- title: What Is Devops?
+  url: /what-is-devops/
 
 - title: Submit a Post
   url: /submission/
