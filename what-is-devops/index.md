@@ -5,9 +5,7 @@ author: joe_morgan
 tags: [devops, bizdevops, history of devops, automation, Lean IT, theory of constraints, The Three Ways]
 comments: false
 image:
-  feature: night-lights-1.jpg
-  credit: static.pexels.com
-  creditlink: https://static.pexels.com/photos/370/lights-night-dark-abstract.jpeg
+  feature: shapes-2.png
 ---
 
 People have been defining and redefining devops for years. The intent here isn't to propose yet another definition, but to try to describe the thinking behind the modern devops movement and to provide a gentle introduction for those of you who are new to the topic. For you seasoned devops professionals, please jump in and correct me if I go astray.

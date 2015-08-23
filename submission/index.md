@@ -5,9 +5,7 @@ author: joe_morgan
 tags: [post submission, how-to]
 comments: false
 image:
-  feature: night-lights-3.jpg
-  credit: 4freephotos.com
-  creditlink: http://www.4freephotos.com/images/batch/Blurred-lights772.jpg
+  feature: shapes-4.png
 ---
 
 ## Outline ##

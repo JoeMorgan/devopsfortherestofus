@@ -5,9 +5,7 @@ author: joe_morgan
 tags: [about, bio, joe, Sapient, CMTOu]
 comments: false
 image:
-  feature: night-lights-0.jpg
-  credit: desktopwallpapers4.me
-  creditlink: http://www.desktopwallpapers4.me/abstract/blurry-hexagon-lights-10427/
+  feature: shapes-3.png
 ---
 
 At a glance, Devops for the Rest of Us may seem odd. A devops blog that intentionally shifts the focus <i>away</i> from development and IT operations? What gives?
