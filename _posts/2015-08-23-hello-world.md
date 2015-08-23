@@ -7,14 +7,14 @@ tags: [devops, bizdevops, hello world, meta blog]
 comments: true
 ---
 
-Do you feel like you're on the outside of the devops movement, looking in? Are you excited about automation and measurement as tools to improve the way you work, but you don't typically play in the ops space? This is the place for you. Welcome to Devops for the Rest of Us.
+Do you feel like you're on the outside of the devops movement, looking in? Are you excited about automation and measurement as tools to improve the way you work, but you don't typically play in the ops space? Maybe you don't really know what devops is and you want to find out. This is the place for you. Welcome to Devops for the Rest of Us.
 
-I lead a group of front-end developers at a [digital ad agency](http://sapientnitro.com "SapientNitro.com") in Boston. Front-end dev has seen an explosion in tooling and complexity over the last few years, and so we're starting to see 
+As a front-end developer working at <a href="http://www.sapientnitro.com/en-us.html#home" target="_blank" title="SapientNitro.com">a new breed of agency</a>, I get to work with clients in a variety of industries, and I also spend a lot of time at the intersection of creative and technology. So I get a pretty good look at the way work flows both through and between organizations.
 
-Do you feel like you're on the outside of the devops movement, looking in? Are you excited about automation and measurement as tools to improve the way you work, but you don't typically play in the ops space? This is the place for you. Welcome to Devops for the Rest of Us.
+When I started to learn about devops, I got really excited about the thinking behind the movement, and started to consider how to apply these ideas and practices to my work and to other places within our organization. And I couldn't help but wonder: do others have similar ideas?
 
-I lead a group of front-end developers at a [digital ad agency](http://sapientnitro.com "SapientNitro.com") in Boston. Front-end dev has seen an explosion in tooling and complexity over the last few years, and so we're starting to see Do you feel like you're on the outside of the devops movement, looking in? Are you excited about automation and measurement as tools to improve the way you work, but you don't typically play in the ops space? This is the place for you. Welcome to Devops for the Rest of Us.
+That's where you come in. Whether you're an IT professional looking to evangelize, a front-end developer wondering what all the fuss is about, or you're completely new to devops, this is a place to learn and share ideas.
 
-I lead a group of front-end developers at a [digital ad agency](http://sapientnitro.com "SapientNitro.com") in Boston. Front-end dev has seen an explosion in tooling and complexity over the last few years, and so we're starting to see Do you feel like you're on the outside of the devops movement, looking in? Are you excited about automation and measurement as tools to improve the way you work, but you don't typically play in the ops space? This is the place for you. Welcome to Devops for the Rest of Us.
+Over the next few weeks, I will begin to post on a variety of topics related to devops and front-end development. I will also invite others from my company and my network to share their thoughts.
 
-I lead a group of front-end developers at a [digital ad agency](http://sapientnitro.com "SapientNitro.com") in Boston. Front-end dev has seen an explosion in tooling and complexity over the last few years, and so we're starting to see 
+For now, if you want to hear more about me and my intentions for this site, visit the <a href="/about" title="About Devops for the Rest of Us">About</a> page. If you're still not exactly sure what I'm talking about when I refer to devops or its underlying principles, check out <a href="/what-is-devops" title="What Is Devops?">What Is Devops?</a>. And if you want to contribute to the blog by writing on a topic that's near and dear to you, go right to <a href="/submission" title="Submit a Post">Submit a Post</a>.

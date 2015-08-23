@@ -43,16 +43,23 @@
 	{% for post in site.posts limit:1 %}
 	<article>
 		{% if post.link %}
-		<h1 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-			<a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h1>
+			<h1 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+				<a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h1>
 		{% else %}
-		<h1><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
-		{{ post.content | truncate: 1000}}
-		{% if post.content.size > 1000 %}
-		<p class="read-more-link">
-			<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">Read more</a>
-		</p>
-		{% endif %}
+			<h1><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+			{% if site.posts.size > 1 %}
+				{{ post.content | truncate: 1000}}
+				{% if post.content.size > 1000 %}
+					<p class="read-more-link">
+						<a href="{{ site.url }}{{ post.url }}" title="Read the rest of the post here">Read the rest</a>
+					</p>
+				{% endif %}
+			{% else %}
+				{{ post.content }}
+				<p class="read-more-link">
+					<a href="{{ site.url }}{{ post.url }}#article-footer" title="Click through to the article page to comment">Add a comment</a>
+				</p>
+			{% endif %}
 		{% endif %}
 	</article>
 	{% endfor %}
