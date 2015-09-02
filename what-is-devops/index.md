@@ -66,3 +66,12 @@ If we accept the idea that practices of agile collaboration, automation, and mea
 This is the <i>[raison d'&#234;tre](/about/ "About Devops for the Rest of Us")</i> for this blog: to help bring people from all disciplines into the devops movement, and to start to think about what the future of work might look like.
 
 So please, join the conversation. If you have an idea of how to apply the principles of devops to your work, this is the place to talk about it. If you think I've missed the mark entirely, feel free to [create a post](/submission/ "Guidelines for post submission") saying so.
+
+Some initial possibilities for blog topics are listed below. Feel free to comment if you're interested in any of these topics, or others, for that matter. I'd love your feedback.
+
+* Dev-ign? - <i>Improving collaboration between design and development</i>
+* Front-End Ops - <i>Testing and monitoring client-side code</i>
+* Agile Is a Dirty Word - <i>What creatives think when they hear "agile"</i>
+* Is Full-Stack Inevitable? - <i>The line between front-end and back-end</i>
+* Preaching the Gospel - <i>How to talk about devops to non-technologists</i>
+* The Devops Problem - <i>What's wrong with the current take on devops?</i>
