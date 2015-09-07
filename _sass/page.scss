@@ -42,7 +42,9 @@ body {
 		@include prefix(12,2);
 	}
 }
-
+.fluid-width-video-wrapper{
+	margin-bottom:20px;
+}
 /* Top navigation links */
 .top-navigation {
 	@include grid(12,10);
