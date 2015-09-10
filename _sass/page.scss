@@ -42,7 +42,9 @@ body {
 		@include prefix(12,2);
 	}
 }
-
+.fluid-width-video-wrapper{
+	margin-bottom:20px;
+}
 /* Top navigation links */
 .top-navigation {
 	@include grid(12,10);
@@ -275,7 +277,8 @@ $button-size: 1.5rem;
 				margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
 			}
 		}
-		p {
+		p,
+		li {
 			@include font-rem(14);
 		}
 		p+p {
@@ -725,3 +728,24 @@ $button-size: 1.5rem;
 #goog-wm-sb {
 	@extend .btn;
 }
+
+
+.devops-resources{
+	margin-top:40px;
+	h3{
+		max-width:100%;
+	}
+	ul{
+		padding:0;
+		margin:0;
+	}
+	li{
+		list-style:none;
+		font-size:0.875rem;
+		margin:0 0 5px;
+	}
+	.fa{
+		margin-left:5px;
+	}
+}
+

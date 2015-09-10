@@ -33,6 +33,7 @@
 <main id="main" role="main">
 	<div class="article-author-side">
 	{% include _author-bio.html %}
+	{% include _sidebar-links.html %}
 	</div>
 	<div id="index">
 
@@ -48,12 +49,14 @@
 		{% else %}
 			<h1><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
 			{% if site.posts.size > 1 %}
-				{{ post.content | truncate: 1000}}
-				{% if post.content.size > 1000 %}
+
+			   {{ post.content | split:'<!--break-->' | first }}
+			   {% if post.content contains '<!--break-->' %}
 					<p class="read-more-link">
 						<a href="{{ site.url }}{{ post.url }}" title="Read the rest of the post here">Read the rest</a>
 					</p>
 				{% endif %}
+
 			{% else %}
 				{{ post.content }}
 				<p class="read-more-link">
