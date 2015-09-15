@@ -3,4 +3,5 @@ The <a href="http://devopsfortherestof.us" title="Visit the Devops for the Rest 
 To learn more about the blog, visit the <a href="http://devopsfortherestof.us/about/" title="About devopsfortherestof.us">About</a> page. To contribute, comment on the blog posts, or better yet, fork this repo and make a pull request for your own content.
 
 Contributors:
-*t4c0
+
+* t4c0
