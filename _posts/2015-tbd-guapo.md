@@ -32,7 +32,7 @@ So yes, this is definitely more real than a unicorn.
 
 ###Docker 
 
-In order for all of this to be real, we need that crucial core functionality of the ability to quickly and easily distribute our environment. We found this solution in [Docker](https://www.docker.com/). You can get the complete description and ins and outs of Docker on their site, but for our purposes, it is a medium for running extremely lightweight VM's that can be heavily customized and built on command. There are three main concepts to internalize for the purpose of this explanation;
+In order for all of this to be real, we need that crucial core functionality that is the ability to quickly and easily distribute our environment. We found this solution in [Docker](https://www.docker.com/). You can get the complete description and ins and outs of Docker on their site, but for our purposes, it is a medium for running extremely lightweight VM's that can be heavily customized and built on command. There are three main concepts to internalize for the purpose of this explanation;
 
  1. Docker image - this is the instance of your environment, a pre-built installation with everyting you need to get going
  2. Docker container - when you run an image, you get a container, a running instance of your environment
@@ -56,16 +56,16 @@ With El Guapo, a developer can choose what to use and when to use it. By simply 
 
 ###Continuous Integration and server deployment
 
-Finally, we want all of of our building and testing to happen automatically, both locally and on our servers. Well, since we have total control over our own environment, we can simply setup an instance of Jenkins in our Docker image and we're ready to go! The power this affords us is having a CI environment already setup for our front end that can be deployed on a server in the form of our Docker container. Too often we find ourselves wrestling with trying to get a new server environment setup to build our project (often remotely) and it's goes a lot like this:
+Finally, we want all of of our building and testing to happen automatically, both locally and on our servers. Well, since we have total control over our own environment, we can simply setup an instance of Jenkins in our Docker image and we're ready to go! The power this affords us is having a CI environment already setup for our front end that can be deployed on a server in the form of our Docker container. Too often we find ourselves wrestling with trying to get a new server environment setup to build our project automatically (often remotely) and it goes a lot like this:
 
 <figure>
 	<a href="https://media.giphy.com/media/PKgRu9KQuZpSg/giphy.gif"><img src="https://media.giphy.com/media/PKgRu9KQuZpSg/giphy.gif"></a>
-	<figcaption>"Careful... Careful... Screw it."</figcaption>
+	<figcaption>"Almost... Almost... Screw it."</figcaption>
 </figure>
 
-This allows us to both emulate very closely the actual server environment locally via Docker, and deploy much more quickly and frequently with Docker. This also makes getting our server set up initially much easier and faster.
+Not only does this allow us to both emulate very closely the actual server environment locally via Docker, and deploy much more quickly and frequently with Docker, this also makes getting our server set up initially much easier and faster.
 
 ##Putting it all together
 
-
+The point of all of this is to hasten the ramp up time for new developers on a project, simplify the build and deployment process, and make testing, code quality, and performance testing inherent to development. 
 
