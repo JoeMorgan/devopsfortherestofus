@@ -7,7 +7,7 @@ tags: [devops, front-end, docker, jenkins, tooling, testing, dashboards]
 comments: true
 ---
 
-## What the what?
+## You want me to what?
 
 As developers in a fast paced environment, we're asked to move around quite a bit. Task to task, project to project, toolset to toolset, environment to environment. This is a lot to ask! Typically each of us grows accustom to our own (clearly superior) tools and environments and we entrench ourselves in our ways. We wouldn't have to dive too far into this ideology to see how this is not so conducive to switching gears very quickly, but nonetheless we force ourselves to live with it. We learn new, but painfully similar tools. We stand-up and configure Apache, or Nginx with different configurations. We install, update, and roll back versions of Node.js, npm, Grunt, Gulp, Ruby, Sass, etc., etc., etc. until at last the code base we've checked out runs without error or warning. Often times this process must be repeated in some fashion to then setup a CI environment on a server. 
 
@@ -15,6 +15,8 @@ As developers in a fast paced environment, we're asked to move around quite a bi
 	<a href="https://media.giphy.com/media/xkJ967hJt01gI/giphy.gif"><img src="https://media.giphy.com/media/xkJ967hJt01gI/giphy.gif"></a>
 	<figcaption>"Could you hop over to this project for a couple days?"</figcaption>
 </figure>
+
+<!--break-->
 
 This is a whole lot of pain and besides, we're "developers," not "environment setter uppers." Surely there is something we can do to alleviate all of this?
 
@@ -38,7 +40,7 @@ In order for all of this to be real, we need that crucial core functionality tha
  2. Docker container - when you run an image, you get a container, a running instance of your environment
  3. Docker file (Dockerfile) - this is the slimmest way to distribute an environment, it is the instruction set to build a Docker image
 
-As a developer, one needs only pull down the El Guapo container from [Docker Hub](https://hub.docker.com/) and run it, or get the very lightweight Dockerfile, build the image, and then run it just the same. Once the container is running, Docker exposes and IP which makes the project and testing dashboards (hosted in the container) accessible via a local browser. 
+As a developer, one needs only pull down the El Guapo container from [Docker Hub](https://hub.docker.com/) and run it, or get the very lightweight Dockerfile, build the image, and then run it just the same. Any project folder can be mapped to the Docker container from the user's local machine, allowing simple implementation with virtually any project. Once the container is running, Docker exposes and IP which makes the project and testing dashboards (hosted in the container) accessible via a local browser. 
 
 It's worth noting at this point that Docker is used for a multitude of applications (pun intended) and further exploration of it is highly encouraged, but now that you've gotten the elevator speech on it, we take a look at El Guapo's toolbox.
 
@@ -67,5 +69,11 @@ Not only does this allow us to both emulate very closely the actual server envir
 
 ##Putting it all together
 
-The point of all of this is to hasten the ramp up time for new developers on a project, simplify the build and deployment process, and make testing, code quality, and performance testing inherent to development. 
-
+The point of all of this is to hasten the ramp up time for new developers on a project, simplify the build and deployment process, and make testing, code quality, and performance testing inherent to development. Developers can very quickly pull down a code base and have a reliable development environment, testing, and a C.I. environment all setup in a matter of minutes. Even better, the same environment could easily be deployed to a server. Gone are the days where project and environment setup feels like this:
+<figure>
+	<a href="https://media.giphy.com/media/YpmVBNubONoqs/giphy.gif"><img src="https://media.giphy.com/media/YpmVBNubONoqs/giphy.gif"></a>
+</figure>
+and now it can feel like this:
+<figure>
+	<a href="https://media.giphy.com/media/MteOtn95GNx5e/giphy.gif"><img src="https://media.giphy.com/media/MteOtn95GNx5e/giphy.gif"></a>
+</figure>
