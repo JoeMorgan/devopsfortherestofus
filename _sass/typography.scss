@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
 	@include font-size(32);
+	line-height:35px;
 }
 h2 {
 	@include font-size(28);
