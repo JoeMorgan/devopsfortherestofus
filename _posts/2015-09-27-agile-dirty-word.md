@@ -61,7 +61,7 @@ The idea of applying Agile to creative projects isn't novel. The folks at smarti
 
 But I would go a step further and say that it's not just the impact to business value that Agile (and let's not forget devops) could have on the marketing services side of the house; it's also the impact that it could have for teams and creatives as individuals.
 
-A designer could be working 60 or 70 hours in a week to turn around feedback on the latest comps, only to be told that the client also needs her to to design a PowerPoint deck for an upcoming sales meeting. Because there's no concept of backlog or prioritization, because work isn't estimated or capacity allocated, nine times out of ten the designer just has to suck it up and do the work.
+A designer could be working 60 or 70 hours in a week to turn around feedback on the latest comps, only to be told that the client also needs her to to design a presentation deck for an upcoming sales meeting. Because there's no concept of backlog or prioritization, because work isn't estimated or capacity allocated, nine times out of ten the designer just has to suck it up and do the work.
 
 As a developer, I've been in similar situations. When scope isn't controlled and the project is run fast and loose, everyone has to hustle to make up for it. Over the course of a long enough project, the result is tired people, sloppy work, and burnout.
 
