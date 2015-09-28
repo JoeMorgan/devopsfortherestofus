@@ -35,7 +35,7 @@ It may be reductive to say that Agile isn't embraced by non-technologists becaus
 	</figcaption>
 </figure>
 
-It might be easy to brush off criticisms like this, but remember that these are people for whom image and style are <strong>everything</strong>. A designer will slave for hours over the kerning and leading of a headline, and a copyrighter will agonize over the perfect way to tell a user that email address is a required field.
+It might be easy to brush off criticisms like this, but remember that these are people for whom image and style are <strong>everything</strong>. A designer will slave for hours over the kerning and leading of a headline, and a copywriter will agonize over the perfect way to tell a user that email address is a required field.
 
 They're paid to know what looks and sounds good, and this is going to make it hard to get them to listen past the words <em>Kanban board</em> when we start talking about applying Agile to their work.
 
