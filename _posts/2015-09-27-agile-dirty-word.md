@@ -67,7 +67,7 @@ As a developer, I've been in similar situations. When scope isn't controlled and
 
 Lucky for me, I think there's little question out there that Agile methodologies pay dividends for development work. I think it's time we share the wealth.
 
-##Over to You##
+## Over to You ##
 
 <p class="over-to-you">
 	Has anyone out there ever followed Agile methodologies during the design phase of a project? I'd love to hear some examples in the comments.
