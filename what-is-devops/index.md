@@ -13,7 +13,7 @@ People have been defining and redefining devops for years. The intent here isn't
 It may be obvious from the word devops&mdash;technically called a <a href="https://en.wikipedia.org/wiki/Portmanteau" target="_blank" title="Wikipedia">portmanteau</a>, but I prefer "frankenword"&mdash;that this all started as a way to combine development and operations. To bridge the gap between coders, who build products, services, and experiences, and infrastructure teams, who provision hardware and configure environments to bring that code out into the world. But why? What gap are we talking about?
 
 
-##Build and Release##
+## Build and Release ##
 
 At the risk of oversimplifying (and without getting into the historical details, best left to the pros at <a href="http://itrevolution.com/the-history-of-devops/" target="_blank" title="IT Revolution Press">IT Revolution Press</a>), it's about the old school build and release process, which kind of resembles this:
 <figure>
@@ -30,7 +30,7 @@ Historically, the result of this is that deployments are done infrequently to mi
 Given this, it shouldn't be surprising that, for many years, people have been looking for a better way to do things.
 
 
-##Devops as Automation##
+## Devops as Automation ##
 
 The rise of automation isn't exactly new. Developers have been using tools like Ant and Maven to improve build processes since the turn of the century (and before), and there are certainly analogs on the ops side. But it wasn't until tools were created to facilitate the *collaboration* of developers and IT operations staff that we started to see some real gains. The seminal example of this was the 2009 Velocity conference talk by John Allspaw and Paul Hammond, <a href="https://www.youtube.com/watch?v=LdOe18KhtT4" target="_blank" title="10+ Deploys Per Day: Dev and Ops Cooperation at Flickr">10+ Deploys Per Day: Dev and Ops Cooperation at Flickr</a>.
 
@@ -38,7 +38,7 @@ Since those early days, there has been an explosion of tools coming out of the d
 
 And along with the popularity of these tools comes an increasing number of success stories from the companies that have embraced them (and, more importantly, the thinking behind them). Esty <a href="http://www.slideshare.net/beamrider9/continuous-deployment-at-etsy-a-tale-of-two-approaches" target="_blank" title="Continuous Deployment at Esty: A Tale of Two Approaches (on slideshare)">spoke at SWSX in 2013</a> about doing 25+ deploys per day (a number that has since doubled to more than 50 per day at QCon, London), while Amazon reports performing a production deployment every *<a href="https://www.youtube.com/watch?v=dxk8b9rSKOo&amp;feature=youtu.be&amp;t=10m8s" target="_blank" title="Velocity 2011: Jon Jenkins, &quot;Velocity Culture&quot;">11.6 seconds</a>*.
 
-##A More Interesting Angle##
+## A More Interesting Angle ##
 
 It may be obvious, but tools are a means to an end. If we surmise from the statistics above that the end in question is a deployment metric, then that should tell us something. What is a production release but the delivery of value from the business to the consumer? This line of questioning leads us to what I consider to be one of the more interesting views of devops:
 
@@ -59,7 +59,7 @@ Modeled after <a href="http://www.amazon.com/The-Goal-Process-Ongoing-Improvemen
 
 I was struck when reading this, not just because the word devops wasn't introduced until I was 78% of the way through the book, but because I started to think about challenges that I see in my own work in these terms.
 
-##Carrying Devops Forward##
+## Carrying Devops Forward ##
 
 If we accept the idea that practices of agile collaboration, automation, and measurement/refinement can have impacts throughout all areas of an organization, then it becomes clear that we're no longer just talking about development and operations, but a new way of doing work.
 
