@@ -18,7 +18,7 @@ This isn't to say I wouldn't value input from the mainstream devops community. F
 
 So whether you're just learning about devops and you want to share your questions and ideas, or you're a seasoned professional that wishes the rest of the world would work as efficiently as you do, please feel free to engage with this platform. Comment with your thoughts, or take it one step further and <a href="https://github.com/JoeMorgan/devopsfortherestofus" target="_blank" title="Fork this blog on GitHub.com">fork this blog on github</a> and make a pull request to [write your own post](/submission/ "Learn how to submit your own post to Devops for the Rest of Us").
 
-##About Me##
+## About Me ##
 
 I'm a Senior Manager of experience technology at <a href="http://www.sapientnitro.com/en-us.html#home" target="_blank" title="SapientNitro.com">SapientNitro</a> in Boston. I'm lucky to help lead a group of incredibly talented developers in an energetic and fast-paced agency environment.
 

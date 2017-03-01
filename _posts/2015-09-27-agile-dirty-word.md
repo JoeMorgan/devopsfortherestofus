@@ -24,7 +24,7 @@ I guess I wasn't surprised; Agile is, after all, a development methodology. But 
 
 <!--break-->
 
-###Goofy Vocabulary###
+### Goofy Vocabulary ###
 
 It may be reductive to say that Agile isn't embraced by non-technologists because it doesn't sound cool. But honestly, "scrum master"? You might as well call it <em>dungeon master</em> for all the good it'll do for Agile's image. Having known a few of the former and many of the latter, it's hard to say who makes out worse with the comparison.
 
